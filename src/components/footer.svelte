@@ -16,7 +16,11 @@
 			{#each donations as donation}
 				<p>{donation.name}</p>
 			{/each}
-			<p>Email: <a href="mailto:scfireworks@gmail.com">scfireworks@gmail.com</a></p>
+			<p>
+				Email: <a class="link link-hover" href="mailto:scfireworks@gmail.com"
+					>scfireworks@gmail.com</a
+				>
+			</p>
 		</div>
 	</div>
 	<div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end" />

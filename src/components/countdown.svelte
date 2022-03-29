@@ -21,7 +21,7 @@
 			const offerDays = Math.floor(offerTime / (1000 * 60 * 60 * 24));
 			const offerHours = Math.floor((offerTime / (1000 * 60 * 60)) % 24);
 			const offerMins = Math.floor((offerTime / (1000 * 60)) % 60);
-			const offerSecs = Math.floor((offerTime / 1000) % 60);
+			// const offerSecs = Math.floor((offerTime / 1000) % 60);
 
 			const days_el = document.querySelector('#days_left');
 			days_el.textContent = offerDays;
@@ -29,8 +29,8 @@
 			hours_el.textContent = offerHours;
 			const mins_el = document.querySelector('#mins_left');
 			mins_el.textContent = offerMins;
-			const secs_el = document.querySelector('#secs_left');
-			secs_el.textContent = offerSecs;
+			// const secs_el = document.querySelector('#secs_left');
+			// secs_el.textContent = offerSecs;
 		}
 
 		function resetOfferDate() {
@@ -57,9 +57,9 @@
 			<span id="mins_left"> 0 </span>
 			mins
 		</div>
-		<div class="secs p-3">
+		<!-- <div class="secs p-3">
 			<span id="secs_left"> 0 </span>
 			secs
-		</div>
+		</div> -->
 	</div>
 </div>

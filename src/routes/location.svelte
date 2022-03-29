@@ -2,7 +2,7 @@
 	let events = [
 		{
 			header: 'Fireworks!',
-			body: 'St. Cloud Fireworks Committee presents central Minnesota′s Fourth of July Fireworks display.  2021 is the 75th consecutive year for the areas July 4th Fireworks. The 2021 St. Cloud Area Fireworks will be one of the largest pyrotechnics display in central Minnesota on July 4th.'
+			body: 'St. Cloud Fireworks Committee presents central Minnesota′s Fourth of July Fireworks display.  2022 is the 76th consecutive year for the areas July 4th Fireworks. The 2022 St. Cloud Area Fireworks will be one of the largest pyrotechnics display in central Minnesota on July 4th.'
 		},
 		{
 			header: 'Hester Park',
@@ -10,7 +10,7 @@
 		},
 		{
 			header: 'Wilson Park',
-			body: 'Just off Riverside Drive and across the river from Hester Park, Wilson Park affords spectators with fantastic views of the Fireworks display. Wilson Park also plays host to members of the United States military and their families in a special ‘Reserved Seating’ area. No reservations needed, simply bring a chair, show your military ID and enjoy the show!  Robby Vee and his Rock-N-Roll Caravan 7:30 – 10:00 PM'
+			body: 'Just off Riverside Drive and across the river from Hester Park, Wilson Park affords spectators with fantastic views of the Fireworks display. Wilson Park also plays host to members of the United States military and their families in a special ‘Reserved Seating’ area. No reservations needed, simply bring a chair, show your military ID and enjoy the show!'
 		},
 		{
 			header: 'Mississippi River',
@@ -39,8 +39,8 @@
 			<h2 class="pt-6 text-4xl font-bold text-blue-800 capitalize">Fireworks at 10:00pm</h2>
 			<p class="py-6">
 				St. Cloud Fireworks Committee presents central Minnesota′s Fourth of July Fireworks display.
-				2021 is the 75th consecutive year for the areas July 4th Fireworks and America’s 245th
-				birthday. The 2021 Fireworks will be one of the largest pyrotechnics display in central
+				2022 is the 76th consecutive year for the areas July 4th Fireworks and America’s 246th
+				birthday. The 2022 Fireworks will be one of the largest pyrotechnics display in central
 				Minnesota on July 4th. Our Fireworks show will be synchronized to a specially selected music
 				soundtrack. Great viewing areas are available on both sides of the Mississippi River, in
 				Wilson and Hester parks, along 5th Avenue North, and other parts of the community.
@@ -48,7 +48,7 @@
 			<h2 class="pt-6 text-3xl font-bold capitalize">
 				Life, Liberty, and the Pursuit of Happiness!
 			</h2>
-			<h2 class="pt-6 text-3xl font-bold capitalize">Happy Fourth of July 2021!</h2>
+			<h2 class="pt-6 text-3xl font-bold capitalize">Happy Fourth of July 2022!</h2>
 		</div>
 	</div>
 </div>
