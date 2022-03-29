@@ -8,12 +8,12 @@
 		{ url: '/volunteer', name: 'volunteering' },
 		{ url: '/sponsors', name: 'sponsors' },
 		{ url: '#footer', name: 'donate' },
-		{ url: '/thanks', name: 'thanks' }
+		{ url: '/thankyou', name: 'thanks' }
 	];
 </script>
 
 <div class="navbar bg-base-100">
-	<div class="navbar-start">
+	<div class="navbar-end">
 		<div class="dropdown">
 			<button tabindex="0" class="btn btn-ghost lg:hidden">
 				<svg
@@ -40,7 +40,7 @@
 			</ul>
 		</div>
 	</div>
-	<div class="navbar-center hidden lg:flex">
+	<div class="shrink-0 hidden lg:flex">
 		<ul class="menu menu-horizontal navbar-start p-0 grow">
 			{#each links as link}
 				<li><a class="capitalize" href={link.url}>{link.name}</a></li>
