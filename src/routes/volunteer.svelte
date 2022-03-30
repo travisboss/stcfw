@@ -20,15 +20,16 @@
 				thousands of faces on July 4th. The entire event is organized by dedicated volunteers who
 				give time and talents to make it all possible.
 			</p>
-			<h1 class="text-3xl font-bold pb-1">Volunteer Oppertunities</h1>
+			<h1 class="text-3xl font-bold pb-1">Volunteer (Oppertunities)</h1>
 			<ul>
 				{#each items as item}
 					<li>{item.name}</li>
 				{/each}
 			</ul>
 			<p class="pt-6">
-				Please contact the St. Cloud Park Department at <a href="tel:16128363635">(612) 836-3635</a>
-				for volunteer opportunities or email use at
+				Please contact the St. Cloud Fireworks Committee <a href="tel:16128363635">(612) 836-3635</a
+				>
+				for volunteer opportunities or email us at
 				<a href="mailto:scfireworks@gmail.com">scfireworks@gmail.com</a>
 			</p>
 			<p class="pt-6" />

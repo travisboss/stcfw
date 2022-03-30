@@ -25,10 +25,6 @@
 				>Checks can be made payable to Fireworks Fund</span
 			>.
 		</p>
-		<p class="p-1">St. Cloud Fireworks Committee</p>
-		<p class="p-1">Attn: Lathrop GPM</p>
-		<p class="p-1">1010 W. St. Germain St. Ste. 500</p>
-		<p class="p-1">St. Cloud, MN 56301</p>
-		<h2 class="text-3xl">Donate to keep the tradition strong</h2>
+		<h2 class="text-3xl mb-5">Donate to keep the tradition strong</h2>
 	</div>
 </div>

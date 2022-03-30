@@ -2,9 +2,9 @@
 	let donations = [
 		{ name: 'Donation Information' },
 		{ name: 'Mailing Address:' },
-		{ name: 'St Cloud Fireworks Committee' },
-		{ name: '& Schlenner Wenner & Company' },
-		{ name: 'Attn: Pat Plamann' },
+		{ name: 'St. Cloud Fireworks Committee' },
+		{ name: '% Schlenner Wenner & Company' },
+		// { name: 'Attn: Pat Plamann' },
 		{ name: '630 Roosevelte Road, Suite 201' },
 		{ name: 'St. Cloud Mn 56301' }
 	];
