@@ -23,7 +23,7 @@
 			In order to make this event a success, we need your assistance. All contributions large or
 			small are graciously accepted. <span class="font-bold"
 				>Checks can be made payable to Fireworks Fund</span
-			>.
+			>. See donate page on where to send check or contact us.
 		</p>
 		<h2 class="text-3xl mb-5">Donate to keep the tradition strong</h2>
 	</div>
