@@ -5,7 +5,7 @@
 		{ item: 'Sauk Rapids Police Department' },
 		{ item: 'Stearns County Sheriff' },
 		{ item: 'Benton County Sheriff' },
-		{ item: 'Gold Cross' },
+		{ item: 'Mayo Clinic Ambulance' },
 		{ item: 'St. Cloud Parks Department' },
 		{ item: 'St. Cloud Public Works' },
 		{ item: 'St. Cloud Streets Department' },
