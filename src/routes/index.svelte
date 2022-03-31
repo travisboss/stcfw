@@ -28,7 +28,7 @@
 			</div>
 
 			<div class="pb-1 pt-6 flex justify-center align-middle flex-col">
-				<h2 class="text-2xl font-bold">Tending for a Cause – Fireworks</h2>
+				<h2 class="text-2xl font-bold">Tending for a Cause</h2>
 				<p class="font-bold">Wednesday June 29, 2022 5pm – 7pm</p>
 				<p>
 					Beaver Island Brewing Company, 216 6th Ave S, St Cloud, MN 56301, USA (<a

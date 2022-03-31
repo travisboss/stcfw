@@ -1,7 +1,7 @@
 <script>
 	let items = [
 		{ name: 'Event set up (lifting required)' },
-		{ name: 'Event area security/ perimeter control' },
+		{ name: 'Event area security' },
 		{ name: 'Event logistics' },
 		{ name: 'Event activities' },
 		{ name: 'Event take down (lifting required)' }
@@ -20,7 +20,7 @@
 				thousands of faces on July 4th. The entire event is organized by dedicated volunteers who
 				give time and talents to make it all possible.
 			</p>
-			<h1 class="text-3xl font-bold pb-1">Volunteer (Oppertunities)</h1>
+			<h1 class="text-3xl font-bold pb-1">Volunteer (Opportunities)</h1>
 			<ul>
 				{#each items as item}
 					<li>{item.name}</li>
