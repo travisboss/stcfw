@@ -27,10 +27,12 @@
 				{/each}
 			</ul>
 			<p class="pt-6">
-				Please contact the St. Cloud Fireworks Committee <a href="tel:16128363635">(612) 836-3635</a
+				Please contact the St. Cloud Fireworks Committee <a
+					class="link link-hover"
+					href="tel:16128363635">(612) 836-3635</a
 				>
 				for volunteer opportunities or email us at
-				<a href="mailto:scfireworks@gmail.com">scfireworks@gmail.com</a>
+				<a class="link link-hover" href="mailto:scfireworks@gmail.com">scfireworks@gmail.com</a>
 			</p>
 			<p class="pt-6" />
 		</div>

@@ -8,7 +8,7 @@
 
 <Countdown />
 
-<div class="hero min-h-screen bg-base-200">
+<div class="hero min-h-[81vh] md:min-h-screen bg-base-200">
 	<div class="hero-content text-center">
 		<div class="max-w-4xl">
 			<h1 class="text-3xl font-bold text-blue-900">History, Celebration, Tradition</h1>

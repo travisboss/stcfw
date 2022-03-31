@@ -58,11 +58,11 @@
 				For more information on the St. Cloud Fireworks organization or to become a team member,
 				contact us via:
 			</p>
-			<p class="py-1">Email: <a href="mailto:scfireworks@gmail.com">scfireworks@gmail.com</a></p>
-			<p class="py-1 font-bold">Mailing Address:</p>
-			<p class="py-1">St Cloud Fireworks Committee % Schlenner Wenner & Company</p>
-			<p class="py-1">Attn: Pat Plamann</p>
-			<p class="py-1">630 Roosevelt Road, Suite 201 St. Cloud MN 56301</p>
+			<p class="py-1">
+				Email: <a class="link link-hover" href="mailto:scfireworks@gmail.com"
+					>scfireworks@gmail.com</a
+				>
+			</p>
 		</div>
 	</div>
 </div>

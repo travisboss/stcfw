@@ -13,7 +13,7 @@
 </script>
 
 <div class="navbar bg-base-100">
-	<div class="navbar-end">
+	<div class="navbar-start">
 		<div class="dropdown">
 			<button tabindex="0" class="btn btn-ghost lg:hidden">
 				<svg

@@ -44,7 +44,7 @@
 </script>
 
 <div class="wrap flex justify-center bg-base-200">
-	<div class="timer flex flex-row text-center gap-8 -m-1 text-5xl">
+	<div class="timer flex flex-col md:flex-row text-center gap-0 md:gap-8 -m-1 text-5xl">
 		<div class="days p-3">
 			<span id="days_left"> 0</span>
 			days

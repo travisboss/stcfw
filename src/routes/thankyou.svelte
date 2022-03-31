@@ -22,7 +22,7 @@
 	<title>Thank You</title>
 </svelte:head>
 
-<div class="hero min-h-screen bg-base-200">
+<div class="hero min-h-0 bg-base-200">
 	<div class="hero-content text-center">
 		<div class="max-w-xl">
 			<h2 class="py-6 text-2xl">Thank You!</h2>
