@@ -6,7 +6,8 @@
 		},
 		{
 			header: 'Hester Park',
-			body: 'Located on the west bank of the Mississippi River, between 9th and 12th street north, Hester Park provides a family friendly environment for enjoying the entire day. Plenty of green space makes this park a local favorite and a great place to bring the blanket and picnic basket for a day of relaxation.'
+			body: 'Located on the west bank of the Mississippi River, between 9th and 12th street north, Hester Park provides a family friendly environment for enjoying the entire day. Plenty of green space makes this park a local favorite and a great place to bring the blanket and picnic basket for a day of relaxation.',
+			location: 'St. Cloud Municipal Band 8:30 - 10:00 PM'
 		},
 		{
 			header: 'Wilson Park',
@@ -32,6 +33,9 @@
 			{#each events as event}
 				<h2 class="text-5xl font-bold text-red-500 capitalize">{event.header}</h2>
 				<p class="py-6">{event.body}</p>
+				{#if event.location}
+					<p class="pb-2">{event.location}</p>
+				{/if}
 				{#if event.image}
 					<img class="aspect-auto" src={event.image} alt={event.alt} />
 				{/if}

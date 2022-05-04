@@ -5,8 +5,8 @@
 		{ name: 'St. Cloud Fireworks Committee' },
 		{ name: '% Schlenner Wenner & Company' },
 		// { name: 'Attn: Pat Plamann' },
-		{ name: '630 Roosevelte Road, Suite 201' },
-		{ name: 'St. Cloud Mn 56301' }
+		{ name: '630 Roosevelt Road, Suite 201' },
+		{ name: 'St. Cloud MN 56301' }
 	];
 </script>
 
