@@ -42,6 +42,25 @@
 					Fireworks by enjoying great beverages, food and friends.
 				</p>
 			</div>
+			<div class="pb-1 pt-6 flex justify-center align-middle flex-col">
+				<h2 class="text-2xl font-bold">Help Support the Fireworks at Coborns</h2>
+				<p>
+					Round-up By <i>rounding up</i> your purchase total to the nearest dollar at area Coborn's stores
+					now through July 4th!
+				</p>
+			</div>
+			<div class="pb-1 pt-6 flex justify-center align-middle flex-col">
+				<h2 class="text-2xl font-bold">Live music at Wilson Park</h2>
+				<p>Come see the HoneyBadgers and M-80s</p>
+				<a class="link" href="https://www.stcloudsubaru.com/">Sponsored by St. Cloud Subaru</a>
+				<div class="flex justify-center">
+					<img
+						class="aspect-auto w-1/3"
+						src="https://i.ibb.co/YdBzy0f/St-Cloud-Subaru-Duo-Logo.png"
+						alt="St. Cloud Subaru Logo"
+					/>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

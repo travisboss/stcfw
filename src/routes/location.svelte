@@ -11,7 +11,19 @@
 		},
 		{
 			header: 'Wilson Park',
-			body: 'Just off Riverside Drive and across the river from Hester Park, Wilson Park affords spectators with fantastic views of the Fireworks display. Wilson Park also plays host to members of the United States military and their families in a special ‘Reserved Seating’ area. No reservations needed, simply bring a chair, show your military ID and enjoy the show!'
+			body: 'Just off Riverside Drive and across the river from Hester Park, Wilson Park affords spectators with fantastic views of the Fireworks display. Wilson Park also plays host to members of the United States military and their families in a special ‘Reserved Seating’ area. No reservations needed, simply bring a chair, show your military ID and enjoy the show!',
+			band: [
+				{
+					name: 'HoneyBadgers',
+					time: '8:00pm to 10:00pm',
+					image: 'https://i.ibb.co/LrCxjQC/Honey-Badgers-Logo-RGB.jpg',
+					alt: 'honeybadgers logo'
+				},
+				{
+					name: 'M-80s',
+					time: '6:00pm to 7:30pm'
+				}
+			]
 		},
 		{
 			header: 'Mississippi River',
@@ -38,6 +50,14 @@
 				{/if}
 				{#if event.image}
 					<img class="aspect-auto" src={event.image} alt={event.alt} />
+				{/if}
+				{#if event.band}
+					{#each event.band as band}
+						<ul class="list-none">
+							<li class="pb-2 font-bold">{band.name} {band.time}</li>
+						</ul>
+						<img class="aspect-auto" src={band.image} alt={band.alt} />
+					{/each}
 				{/if}
 			{/each}
 			<h2 class="pt-6 text-4xl font-bold text-blue-800 capitalize">Fireworks at 10:00pm</h2>
