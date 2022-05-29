@@ -14,14 +14,14 @@
 			body: 'Just off Riverside Drive and across the river from Hester Park, Wilson Park affords spectators with fantastic views of the Fireworks display. Wilson Park also plays host to members of the United States military and their families in a special ‘Reserved Seating’ area. No reservations needed, simply bring a chair, show your military ID and enjoy the show!',
 			band: [
 				{
+					name: 'M-80s',
+					time: '6:00pm to 7:30pm'
+				},
+				{
 					name: 'HoneyBadgers',
 					time: '8:00pm to 10:00pm',
 					image: 'https://i.ibb.co/LrCxjQC/Honey-Badgers-Logo-RGB.jpg',
 					alt: 'honeybadgers logo'
-				},
-				{
-					name: 'M-80s',
-					time: '6:00pm to 7:30pm'
 				}
 			]
 		},
