@@ -51,7 +51,7 @@
 			</div>
 			<div class="pb-1 pt-6 flex justify-center align-middle flex-col">
 				<h2 class="text-2xl font-bold">Live music at Wilson Park</h2>
-				<p>Come see the HoneyBadgers and M-80s</p>
+				<p>Come see the HoneyBadgers and MN13s</p>
 				<a class="link" href="https://www.stcloudsubaru.com/">Sponsored by St. Cloud Subaru</a>
 				<div class="flex justify-center">
 					<img
