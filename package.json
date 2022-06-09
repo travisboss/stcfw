@@ -35,7 +35,7 @@
   },
   "type": "module",
   "dependencies": {
-    "daisyui": "^2.11.0",
+    "daisyui": "^2.15.2",
     "swiper": "^8.0.7"
   }
 }
