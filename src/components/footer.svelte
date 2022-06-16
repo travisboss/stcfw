@@ -13,8 +13,8 @@
 <footer id="footer" class="footer items-center p-4 bg-neutral text-neutral-content">
 	<div class="items-center grid-flow-col">
 		<div class="donations md:pl-14">
-			{#each donations as donation}
-				<p>{donation.name}</p>
+			{#each donations as { name }}
+				<p>{name}</p>
 			{/each}
 			<p>
 				Email: <a class="link link-hover" href="mailto:scfireworks@gmail.com"

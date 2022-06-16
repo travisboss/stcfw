@@ -44,21 +44,21 @@
 <div class="hero min-h-screen bg-base-200">
 	<div class="hero-content text-left">
 		<div class="max-w-4xl">
-			{#each events as event}
-				<h2 class="text-5xl font-bold text-red-500 capitalize">{event.header}</h2>
-				<p class="py-6">{event.body}</p>
-				{#if event.location}
-					<p class="pb-2">{event.location}</p>
+			{#each events as { header, body, location, image, alt, band }}
+				<h2 class="text-5xl font-bold text-red-500 capitalize">{header}</h2>
+				<p class="py-6">{body}</p>
+				{#if location}
+					<p class="pb-2">{location}</p>
 				{/if}
-				{#if event.image}
-					<img class="aspect-auto" src={event.image} alt={event.alt} />
+				{#if image}
+					<img class="aspect-auto" src={image} {alt} />
 				{/if}
-				{#if event.band}
-					{#each event.band as band}
+				{#if band}
+					{#each band as { name, time, image, alt }}
 						<ul class="list-none">
-							<li class="pb-2 font-bold">{band.name} {band.time}</li>
+							<li class="pb-2 font-bold">{name} {time}</li>
 						</ul>
-						<img class="aspect-auto" src={band.image} alt={band.alt} />
+						<img class="aspect-auto" src={image} {alt} />
 					{/each}
 				{/if}
 			{/each}

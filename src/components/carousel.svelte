@@ -36,8 +36,8 @@
 		modules={[Autoplay]}
 		class="mySwiper"
 	>
-		{#each slides as slide}
-			<SwiperSlide><img src={slide.img} alt={slide.alt} class="w-full aspect-auto" /></SwiperSlide>
+		{#each slides as { img, alt }}
+			<SwiperSlide><img src={img} {alt} class="w-full aspect-auto" /></SwiperSlide>
 		{/each}
 	</Swiper>
 </div>

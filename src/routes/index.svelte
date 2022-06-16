@@ -17,6 +17,9 @@
 				the sky on the Fourth of July! Celebrate America's 246 birthday of independence!
 			</p>
 			<div class="pb-1 pt-6 flex justify-center align-middle">
+				<p>Congratulations 2022 Honorary Fireworks Commissioner - Dennis Schiffler!</p>
+			</div>
+			<div class="pb-1 pt-6 flex justify-center align-middle">
 				<iframe
 					class="w-full aspect-video"
 					src="https://www.youtube-nocookie.com/embed/yF25m2HoYLE"

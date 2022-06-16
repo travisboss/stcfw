@@ -18,7 +18,6 @@
 			<label tabindex="0" class="btn btn-ghost btn-circle">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					class="h-5 w-5"
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke="currentColor"
@@ -34,8 +33,8 @@
 				tabindex="0"
 				class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
 			>
-				{#each links as link}
-					<li><a href={link.url}>{link.name}</a></li>
+				{#each links as { url, name }}
+					<li><a href={url}>{name}</a></li>
 				{/each}
 			</ul>
 		</div>
