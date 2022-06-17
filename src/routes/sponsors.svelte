@@ -7,6 +7,7 @@
 		><img
 			src="https://i.ibb.co/TK1j4z1/Fireworks-Sponsor-Banner-Outsource1024-1.jpg"
 			alt="Fireworks Sponsor Banner"
+			class="md:w-[60vw]"
 			border="0"
 		/></a
 	>
