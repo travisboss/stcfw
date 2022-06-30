@@ -7,11 +7,19 @@
 		{
 			header: 'Hester Park',
 			body: 'Located on the west bank of the Mississippi River, between 9th and 12th street north, Hester Park provides a family friendly environment for enjoying the entire day. Plenty of green space makes this park a local favorite and a great place to bring the blanket and picnic basket for a day of relaxation.',
-			location: 'St. Cloud Municipal Band 8:30 - 10:00 PM'
+			body2: '- Food Vendors Open at 4:00 PM',
+			body3: '- Bounce Houses, Inflatables, Launch Pad Opens at 4:00 PM',
+			body4: '- Reserved Seating Area Opens at 6:00 PM',
+			location: '- St. Cloud Municipal Band 8:30 - 10:00 PM'
 		},
 		{
 			header: 'Wilson Park',
 			body: 'Just off Riverside Drive and across the river from Hester Park, Wilson Park affords spectators with fantastic views of the Fireworks display. Wilson Park also plays host to members of the United States military and their families in a special ‘Reserved Seating’ area. No reservations needed, simply bring a chair, show your military ID and enjoy the show!',
+			body2: '- Food Vendors Open at 4:00 PM',
+			body3: '- Beaver Island Brewing Opens at 4:00 PM',
+			body4: '- Bounce Houses, Inflatables, Launch Pad Opens at 4:00 PM',
+			body5: '- Reserved Seating Area Opens at 2:00 PM',
+			body6: '- Music starts at 6:00 PM',
 			band: [
 				{
 					name: 'MN13',
@@ -44,11 +52,26 @@
 <div class="hero min-h-screen bg-base-200">
 	<div class="hero-content text-left">
 		<div class="max-w-4xl">
-			{#each events as { header, body, location, image, alt, band }}
+			{#each events as { header, body, body2, body3, body4, body5, body6, location, image, alt, band }}
 				<h2 class="text-5xl font-bold text-red-500 capitalize">{header}</h2>
-				<p class="py-6">{body}</p>
+				<p class="py-2">{body}</p>
+				{#if body2}
+					<p class="py-2">{body2}</p>
+				{/if}
+				{#if body3}
+					<p class="py-2">{body3}</p>
+				{/if}
+				{#if body4}
+					<p class="py-2">{body4}</p>
+				{/if}
+				{#if body5}
+					<p class="py-2">{body5}</p>
+				{/if}
+				{#if body6}
+					<p class="py-2">{body6}</p>
+				{/if}
 				{#if location}
-					<p class="pb-2">{location}</p>
+					<p class="py-2">{location}</p>
 				{/if}
 				{#if image}
 					<img class="aspect-auto" src={image} {alt} />
