@@ -4,7 +4,7 @@
 	onMount(() => {
 		function countdown() {
 			const today = new Date();
-			var offerDate = new Date('04 july 2022 22:00:00');
+			var offerDate = new Date('04 july 2023 22:00:00');
 
 			//If offer ends reset to new value
 			if (today.getSeconds() == offerDate.getSeconds()) {
