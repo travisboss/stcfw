@@ -1,16 +1,13 @@
+<script>
+	import sponsorImage from '../components/assets/images/sponsors.jpg';
+</script>
+
 <svelte:head>
 	<title>Sponsor</title>
 </svelte:head>
 
 <div class="flex justify-center pt-6">
-	<a href="https://ibb.co/8zbvrFb"
-		><img
-			src="https://i.ibb.co/TK1j4z1/Fireworks-Sponsor-Banner-Outsource1024-1.jpg"
-			alt="Fireworks Sponsor Banner"
-			class="md:w-[60vw]"
-			border="0"
-		/></a
-	>
+	<img src={sponsorImage} alt="Fireworks Sponsor Banner" class="md:w-[60vw]" border="0" />
 </div>
 
 <div class="hero pt-6">
