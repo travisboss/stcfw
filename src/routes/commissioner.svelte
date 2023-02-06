@@ -21,7 +21,6 @@
 				Committee by riding on the St. Cloud Fire Department’s antique Ahrens Fox Firetruck in the Granite
 				City Days parade in June.
 			</p>
-			<p class="py-6">Congratulations 2022 Honorary Fireworks Commissioner: Dennis Schiffler!</p>
 			<a class="link link-neutral py-6" href="https://ibb.co/2dQs3QQ">Press Release</a>
 		</div>
 	</div>
