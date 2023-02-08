@@ -1,5 +1,9 @@
 <script lang="ts">
-  let donations = [
+  interface Donation {
+    name: string;
+  }
+
+  let donations: Donation[] = [
     { name: 'Donation Information' },
     { name: 'Mailing Address:' },
     { name: 'St. Cloud Fireworks Committee' },
