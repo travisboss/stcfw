@@ -59,6 +59,7 @@
   .countdown-value {
     font-size: 3em;
     font-weight: bold;
+	margin-bottom: 1rem
   }
   .countdown-label {
     font-size: 1.2em;
