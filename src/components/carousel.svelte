@@ -33,7 +33,7 @@ onMount(() => {
   }, 6000);
 });
 </script>
-<div class="relative overflow-hidden w-full h-64">
+<div class="relative overflow-hidden w-full h-96">
   {#each slides as slide}
     <img
       class="absolute top-0 left-0 w-full h-full object-cover transition duration-500 ease-in-out transform"
