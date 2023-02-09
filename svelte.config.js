@@ -1,6 +1,5 @@
 import preprocess from 'svelte-preprocess';
 import adapter from '@sveltejs/adapter-cloudflare';
-import { imagetools } from 'vite-imagetools';
 
 /**
  * @typedef {import('@sveltejs/kit').Config} Config
@@ -14,10 +13,6 @@ const config = {
 
 	kit: {
 		adapter: adapter()
-	},
-
-	vite: {
-		plugins: [imagetools()]
 	}
 };
 
