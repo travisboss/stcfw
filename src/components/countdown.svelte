@@ -9,28 +9,34 @@
   };
 
   let endDate = new Date("2023-07-04T22:00:00");
-  let remainingTime: number = 0;
+  let currentDate = new Date();
+  let remainingTime: number = endDate.getTime() - currentDate.getTime();
   let countdownValues: CountdownValues = {
     days: 0,
     hours: 0,
     minutes: 0,
     seconds: 0,
   };
+  let showCountdown = true;
 
   const updateTime = () => {
-    let currentDate = new Date();
+    currentDate = new Date();
     remainingTime = endDate.getTime() - currentDate.getTime();
-    if (remainingTime < 0) {
-      endDate.setFullYear(endDate.getFullYear() + 1);
-      remainingTime = endDate.getTime() - currentDate.getTime();
-    }
 
-    countdownValues = {
-      days: Math.floor(remainingTime / (1000 * 60 * 60 * 24)),
-      hours: Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
-      minutes: Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60)),
-      seconds: Math.floor((remainingTime % (1000 * 60)) / 1000),
-    };
+    if (remainingTime < 0) {
+      showCountdown = false;
+      if (currentDate.getHours() === 0 && currentDate.getMinutes() === 0 && currentDate.getSeconds() === 0) {
+        endDate.setFullYear(endDate.getFullYear() + 1);
+        showCountdown = true;
+      }
+    } else {
+      countdownValues = {
+        days: Math.floor(remainingTime / (1000 * 60 * 60 * 24)),
+        hours: Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+        minutes: Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60)),
+        seconds: Math.floor((remainingTime % (1000 * 60)) / 1000),
+      };
+    }
   };
 
   onMount(() => {
@@ -48,7 +54,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    height: 100vh;
   }
   .countdown-item {
     display: flex;
@@ -59,28 +65,15 @@
   .countdown-value {
     font-size: 3em;
     font-weight: bold;
-	margin-bottom: 1rem
-  }
-  .countdown-label {
-    font-size: 1.2em;
   }
 </style>
 
-<div class="countdown-container flex h-full">
-  <div class="countdown-item">
-    <div class="countdown-value">{countdownValues.days}</div>
-    <div class="countdown-label">Days</div>
-  </div>
-  <div class="countdown-item">
-    <div class="countdown-value">{countdownValues.hours}</div>
-    <div class="countdown-label">Hours</div>
-  </div>
-  <div class="countdown-item">
-    <div class="countdown-value">{countdownValues.minutes}</div>
-    <div class="countdown-label">Minutes</div>
-  </div>
-  <div class="countdown-item">
-    <div class="countdown-value">{countdownValues.seconds}</div>
-    <div class="countdown-label">Seconds</div>
-  </div>
+<div class="countdown-container">
+  {#if showCountdown}
+    <h1>
+      {countdownValues.days} days {countdownValues.hours} hours {countdownValues.minutes} minutes {countdownValues.seconds} seconds
+    </h1>
+  {:else}
+    <h1>Happy 4th of July!/h1>
+  {/if}
 </div>
