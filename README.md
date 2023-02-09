@@ -1,41 +1,47 @@
-# create-svelte
+STCFW - Svelte & TypeScript Project
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+STCFW is a project built with Svelte and TypeScript. It uses SvelteKit for building and deploying applications and Cloudflare Pages as a hosting platform. It aims to provide a simple and fast way to create modern web applications with a focus on developer experience.
+Features
 
-## Creating a project
+    TypeScript support for a strong typing system and improved developer experience
+    Svelte for fast and efficient UI updates
+    Built-in routing system for easy navigation
+    Pre-configured and optimized build system with SvelteKit
+    A set of helpful components and utilities to get you started quickly
+    Easy deployment with Cloudflare Pages
 
-If you're seeing this, you've probably already done this step. Congrats!
+Quick Start
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+It is recommended to use Node Version Manager (nvm) to manage Node.js versions for this project. Once you have nvm installed, you can follow these steps:
 
-# create a new project in my-app
-npm init svelte@next my-app
+    Clone the repository: git clone https://github.com/travisboss/stcfw.git
+    Navigate to the project directory: cd stcfw
+    Install the dependencies: npm install
+    Run the development server: npm run dev
+    Open your browser to http://localhost:5000 to see your application running.
+
+Deployment
+
+STCFW comes with support for deploying your applications with Cloudflare Pages. To build and deploy your application, run the following command:
+
 ```
-
-> Note: the `@next` is temporary
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
 npm run build
+npm run start
 ```
 
-You can preview the production build with `npm run preview`.
+This will build your application for production and start a server to serve it. You can now visit your application at http://localhost:3000.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
-# stcfw
+To deploy to Cloudflare Pages, you'll need to set up a Cloudflare account and a Pages site. Once you've done that, you can follow these steps to deploy your STCFW application:
+
+    Push your code to a GitHub repository
+    Go to the Pages dashboard in Cloudflare and select your repository
+    Configure your build settings, including the command to build your application (npm run build) and the folder where the built files will be located (public)
+    Trigger a build and wait for it to complete
+    Visit your site at the URL provided by Cloudflare Pages
+
+Contributing
+
+If you're interested in contributing to the development of STCFW, we'd love to have you! Please take a look at our contributing guidelines for more information.
+License
+
+STCFW is open-source software licensed under the MIT license.

@@ -44,36 +44,12 @@
   });
 </script>
 
-<style>
-  h1 {
-    font-size: 2em;
-    font-weight: bold;
-    text-align: center;
-  }
-  .countdown-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  .countdown-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 1em;
-  }
-  .countdown-value {
-    font-size: 3em;
-    font-weight: bold;
-  }
-</style>
-
-<div class="countdown-container">
+<div class="flex justify-center items-center h-[10rem] bg-base-200">
   {#if showCountdown}
-    <h1>
+    <h1 class="text-4xl font-bold text-center">
       {countdownValues.days} days {countdownValues.hours} hours {countdownValues.minutes} minutes {countdownValues.seconds} seconds
     </h1>
   {:else}
-    <h1>Happy 4th of July!/h1>
+    <h1 class="text-xl font-bold text-center">Happy 4th of July at 10pm</h1>
   {/if}
 </div>
