@@ -44,9 +44,9 @@
   });
 </script>
 
-<div class="flex justify-center items-center h-screen">
+<div class="flex justify-center items-center h-[30rem] bg-base-200">
   {#if showCountdown}
-    <h1 class="text-xl font-bold text-center">
+    <h1 class="text-4xl font-bold text-center">
       {countdownValues.days} days {countdownValues.hours} hours {countdownValues.minutes} minutes {countdownValues.seconds} seconds
     </h1>
   {:else}
