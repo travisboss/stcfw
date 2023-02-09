@@ -1,5 +1,6 @@
 <script lang="ts">
 import { onMount } from 'svelte';
+import { ImageTools } from 'vite-imagetools';
 
 interface Slide {
   img: string;
@@ -35,10 +36,11 @@ onMount(() => {
 </script>
 
 <div class="relative overflow-hidden w-full h-64">
-  <img
+  <ImageTools
     src={slides[currentIndex].img}
     alt={slides[currentIndex].alt}
     class="absolute top-0 left-0 w-full h-full object-cover transition duration-500 ease-in-out transform"
     style={{ transform: `translateX(-${100 * currentIndex}%)` }}
+    format="webp"
   />
 </div>
