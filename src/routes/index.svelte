@@ -16,7 +16,7 @@
 				Countdown to Tuesday July 4th 2023 Fireworks - the 77th consecutive year for us to light up
 				the sky on the Fourth of July! Celebrate America's 247 birthday of independence!
 			</p>
-						<div class="pb-1 pt-6 flex justify-center align-middle">
+						<div class="pb-1 pt-6 flex justify-center align-middle flex-col">
 						<p>Join us for a European Pheasant Hunt! There will be 10 stations with 3 people per station. Each station is $3,000 or $1,000 per hunter.</p>
 						<p>Thursday April 20th, 2023 1:00pm</p>
 						<p>At Sand Pine Pheasants in Avon</p>
