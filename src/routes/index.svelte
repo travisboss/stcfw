@@ -21,12 +21,13 @@
 						<p>Thursday April 20th, 2023 1:00pm</p>
 						<p>At Sand Pine Pheasants in Avon</p>
 						<p>Will end with King's Feast</p>
+						<p>Contact us now to sign up or for more information.</p>
 						</div>
 			<div class="pb-1 pt-6 flex justify-center align-middle">
 				<a
 					href="https://app.frame.io/presentations/e9de848d-ed3d-4cd7-8755-bff873690943"
-					alt="2022 firworks event"
-					class="link">2022 Firworks Event</a
+					alt="2022 fireworks event"
+					class="link">2022 Fireworks Event</a
 				>
 			</div>
 		</div>
