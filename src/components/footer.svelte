@@ -15,19 +15,21 @@
 </script>
 
 <footer id="footer" class="footer items-center p-4 bg-neutral text-neutral-content">
-  <div class="items-center grid-flow-col">
-    <div class="donations md:pl-14">
-      {#each donations as donation}
-        <p>{donation.name}</p>
-      {/each}
-      <p>
-        Email: <a class="link link-hover" href="mailto:scfireworks@gmail.com">scfireworks@gmail.com</a>
-      </p>
-    </div>
-  </div>
-  <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-    <form action="https://www.paypal.com/donate" method="post" target="_top">
-      <input type="hidden" name="hosted_button_id" value="RDE23C6EHJSVN" />
+	<div class="items-center grid-flow-col">
+		<div class="donations md:pl-14">
+			{#each donations as { name }}
+				<p>{name}</p>
+			{/each}
+			<p>
+				Email: <a class="link link-hover" href="mailto:jbernick@bernicks.com"
+					>jbernick@bernicks.com</a
+				>
+			</p>
+		</div>
+	</div>
+	<div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+		<form action="https://www.paypal.com/donate" method="post" target="_top">
+			<input type="hidden" name="hosted_button_id" value="RDE23C6EHJSVN" />
 
       <input
         type="image"
