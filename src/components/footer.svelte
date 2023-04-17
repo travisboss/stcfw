@@ -17,8 +17,8 @@
 				<p>{name}</p>
 			{/each}
 			<p>
-				Email: <a class="link link-hover" href="mailto:scfireworks@gmail.com"
-					>scfireworks@gmail.com</a
+				Email: <a class="link link-hover" href="mailto:jbernick@bernicks.com"
+					>jbernick@bernicks.com</a
 				>
 			</p>
 		</div>

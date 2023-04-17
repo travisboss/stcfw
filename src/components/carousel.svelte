@@ -1,6 +1,4 @@
 <script>
-	// @ts-nocheck
-
 	import { Swiper, SwiperSlide } from 'swiper/svelte';
 
 	// Import Swiper styles
